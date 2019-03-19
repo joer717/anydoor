@@ -1,0 +1,41 @@
+{
+  "name": "anydoor",
+  "version": "0.1.1",
+  "description": "NODE JS Static Web server\r ##使用方法什么的 主要介绍项目",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "./bin/anydoor.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no tenpmst specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joer717/anydoor.git"
+  },
+  "author": "joer717",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joer717/anydoor/issues"
+  },
+  "homepage": "https://github.com/joer717/anydoor#readme",
+  "keywords": [
+    "123456"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "command": "0.0.5",
+    "cookie-parser": "^1.4.4",
+    "curl": "^0.1.4",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.0",
+    "multer": "^1.4.1",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "pre-commit": "^1.2.2"
+  }
+}
